@@ -1,0 +1,33 @@
+/* ========== Nav Bar ========== */
+.navbar {
+    background-color: var(--azul-fundo);
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.navbar__items {
+    width: 80%;
+    margin: .5rem auto;
+}
+
+.navbar__item {
+    font-size: .75rem;
+}
+
+.navbar__item::before {
+    display: block;
+    margin-bottom: .25rem;
+}
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar__item button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.4rem;
+}

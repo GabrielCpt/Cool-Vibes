@@ -1,0 +1,98 @@
+/* ========== Responsividade ========== */
+
+/* ========== Para telas até 1023px ========== */
+
+@media only screen and (max-width: 1023px) {
+    .menu-lateral,
+    .rodape,
+    .cabecalho__botao,
+    .section-horizontal .cartao__subtitulo,
+    .section-horizontal .card__button-horizontal,
+    .section-horizontal .card__player-horizontal,
+    .section-vertical .section__link {
+        display: none;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar {
+        display: block;
+    }   
+
+    .cabecalho {
+        justify-self: center;
+    }
+
+    .section-horizontal .card-horizontal {
+        column-gap: 0.5rem;
+    }
+
+    .section-horizontal .card__image-horizontal {
+        height: 4.58rem;
+    }
+
+    .section-horizontal .card__title-horizontal {
+        font: 700 14px/20px 'Open Sans', sans-serif;
+        align-self: center;
+    }
+
+    .section-vertical .card {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+/* ========== Para telas entre 1024px e 1399px ========== */
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .cabecalho .cabecalho__logo,
+    .cabecalho__botao__avancar {
+        display: none;
+    }
+
+    .menu-lateral {
+        width: 208px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .section-horizontal .card__image-horizontal {
+        height: 73px;
+    }
+
+    .section-horizontal .card__title-horizontal {
+        font: 700 16px/22px 'Open Sans', sans-serif;
+    }
+
+    .section-horizontal .cartao__subtitulo {
+        font: 400 14px/19px 'Open Sans', sans-serif;
+        width: 100%;
+    }
+
+    .section-vertical .card {
+        padding: 1.25rem;
+    }
+}
+
+/* ========== Para telas a partir de 1400px ========== */
+
+@media only screen and (min-width: 1400px) {
+    .navbar,
+    .cabecalho__logo {
+        display: none;
+    }
+
+    .menu-lateral {
+        width: 228px;
+    }
+}

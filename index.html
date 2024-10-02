@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Vibe's</title>
+
+    <link rel="shortcut icon" href="./Images/Logos/iconCoolVibesV.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/aside.css">
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/section.css">
+    <link rel="stylesheet" href="Style/navbar.css">
+    <link rel="stylesheet" href="Style/popup.css">
+    <link rel="stylesheet" href="Style/responsividade.css">
+</head>
+
+<body>
+
+    <header class="cabecalho container">
+        <a href="#"><img class="cabecalho__logo" src="./Images/Logos/LogoCoolVibes2.png" alt=""></a>
+        <button class="cabecalho__botao"><img src="./Images/Icones/seta-voltar.svg" alt="Seta voltar"></button>
+        <button class="cabecalho__botao cabecalho__botao__avancar"><img src="./Images/Icones/seta-avancar.svg" alt="Seta Avançar"></button>
+        <ul>
+            <li class="menu-lateral__link ativo"><button aria-label="Botão acessar home"><img src="./Images/Icones/home-branco.svg" alt="Logo do Home">Home</button></li>
+            
+            <li class="menu-lateral__link"><button aria-label="Botão acessar campo de busca"><img src="./Images/Icones/search-branco.svg" alt="Logo do botão de busca">Busca</button></li>
+        </ul>
+    </header>
+
+    <aside class="menu-lateral">
+        <a href="#" class="menu-lateral__logo"><img src="./Images/Logos/LogoCoolVibesV.svg" alt="Logo da CastWave"></a>
+        <nav>
+            <ul>
+                <li class="menu-lateral__link"><button aria-label="Botão acessar sua biblioteca"><img src="./Images/Icones/bookmark-branco.svg" alt="Logo do botão sua biblioteca">Sua Biblioteca</button></li>
+            </ul>
+        </nav>
+        
+        <h3 class="menu-lateral__playlist">PLAYLISTS</h3>
+
+        <ul>
+            <li class="menu-lateral__link"><button aria-label="Botão criar playlist"><img src="./Images/Icones/add-box-branco.svg" alt="Logo do botão criar playlist">Criar Playlist</button></li>
+
+            <li class="menu-lateral__link"><button aria-label="Botão podcasts salvos"><img src="./Images/Icones/stars-branco.svg" alt="Logo do botão Podcasts salvos">Podcasts salvos</button></li>
+        </ul>
+    </aside>
+
+    <main class="principal container">
+
+        <!-- Tocados recentemente -->
+        <section class="section secao-horizontal">
+            <h2 class="section__title">Tocados recentemente</h2>
+
+            <ul class="section__card-horizontal">
+                <li class="card-horizontal">
+                    <!-- A porra do <a> n esquece disso -->
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image-horizontal" src="./Images/Cover/DrogaMaisPura.jpg" alt="">
+                        <h3 class="card__title-horizontal">Droga mais Pura</h3>
+                        <form class="card__button-horizontal" action="."> 
+                            <button aria-label="Play Podcast">
+                                <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                            </button>
+                        </form>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/playlist/4OUkWcnSr7tl9OxuWP03Bp?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <li class="card-horizontal">
+                    <a href="#" class="popup-trigger">
+                            <img class="card__image-horizontal" src="./Images/Cover/333.png" alt="">
+                            <h3 class="card__title-horizontal">333</h3>
+                            <form class="card__button-horizontal" action="."> 
+                                <button aria-label="Play Podcast">
+                                    <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                                </button>
+                            </form>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/5CP84pfi4AFe95UTACFWrk?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card-horizontal">
+                    <a href="#" class="popup-trigger">
+                            <img class="card__image-horizontal" src="./Images/Cover/SeNAvisarOBichoPega.png" alt="">
+                            <h3 class="card__title-horizontal">Se Não Avisar O Bicho Pega</h3>
+                            <form class="card__button-horizontal" action="."> 
+                                <button aria-label="Play Podcast">
+                                    <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                                </button>
+                            </form>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/track/1AUQHpIfccdRaAOHuGQWvQ?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card-horizontal">
+                    <a href="#" class="popup-trigger">
+                            <img class="card__image-horizontal" src="./Images/Cover/AlmaDeFavelaPT1.png" alt="">
+                            <h3 class="card__title-horizontal">Alma de Favela, Pt.1</h3>
+                            <form class="card__button-horizontal" action="."> 
+                                <button aria-label="Play Podcast">
+                                    <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                                </button>
+                            </form>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/4szKhNy0JgoImu77ygVzL1?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card-horizontal">
+                    <a href="#" class="popup-trigger">
+                            <img class="card__image-horizontal" src="./Images/Cover/AlmaDeFavelaPT2.png" alt="">
+                            <h3 class="card__title-horizontal">Alma de Favela, Pt.2</h3>
+                            <form class="card__button-horizontal" action="."> 
+                                <button aria-label="Play Podcast">
+                                    <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                                </button>
+                            </form>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/2q2ZgdZ1C6hSjOSHjUjF8r?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            
+                <li class="card-horizontal">
+                    <a href="#" class="popup-trigger">
+                            <img class="card__image-horizontal" src="./Images/Cover/DADC.png" alt="">
+                            <h3 class="card__title-horizontal">Dias Antes Do Caos</h3>
+                            <form class="card__button-horizontal" action="."> 
+                                <button aria-label="Play Podcast">
+                                    <img src="./Images/Icones/botao-play.svg" alt="Ícone de Play">
+                                </button>
+                            </form>
+                    </a>
+                    <div class="popup">
+                        <div class="popup-content">
+                            <span class="close">&times;</span>
+                            <iframe 
+                                style="border-radius:12px" 
+                                src="https://open.spotify.com/embed/album/2BFosqa97kxv0HBBeB02d8?utm_source=generator" 
+                                width="100%" 
+                                height="352" 
+                                frameBorder="0" 
+                                allowfullscreen="" 
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+        </section>
+
+        <!-- FOR YOU -->
+        <section class="section section-vertical">
+            <h2 class="section__title">Para você</h2>
+            <a class="section__link" href="#" aria-label="Clique aqui para ver mais sobre Hipsters Ponto Tech">Ver mais</a>
+
+            <ul class="section__cards">
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Limbo.png" alt="">
+                        <h3 class="card__title">Limbo</h3>
+                        <h4 class="card__subtitle">EP 2023 - Knust</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/0zHSI3Rctf60XSABUuh0XI?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Naturalidade.png" alt="">
+                        <h3 class="card__title">Naturalidade</h3>
+                        <h4 class="card__subtitle">EP 2020 - pumapjl</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/3gp2i1MoL1Xc3W0bZK88Y7?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/MPFB.png" alt="">
+                        <h3 class="card__title">Músicas Para Fumar Balão</h3>
+                        <h4 class="card__subtitle">Mixtape 2023 - Big Bllakk - Derxan</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/2zBsNCMQxokxViSI9kiaQX?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/PNP2.png" alt="">
+                        <h3 class="card__title">Poetas No Topo</h3>
+                        <h4 class="card__subtitle"> Single 2017 - Vários intérpretes</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/album/4oHmQHDqErN6wHdhaskCMq?utm_source=generator" 
+                        width="100%" 
+                        height="352" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">                      
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Bandido90's.png" alt="">
+                        <h3 class="card__title">Bandido Anos 90</h3>
+                        <h4 class="card__subtitle"> Single 2021 - Derxan</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/10kMHb15sKWapHVUwhPoYY?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">    
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/FazParteDoMeuShow.png" alt="">
+                        <h3 class="card__title">Faz Parte Do Meu Show</h3>
+                        <h4 class="card__subtitle"> EP 2024 - Bardek</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/20E1CWh6TGmwf6Pf0036u2?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">   
+                        </iframe>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+        <!-- Sugestão de Playlist -->
+        <section class="section section-vertical">
+            <h2 class="section__title">Sugestão de playlist</h2>
+            <a class="section__link" href="#" aria-label="Clique aqui para ver mais sobre indicados para você">Ver mais</a>
+
+            <ul class="section__cards">
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/DiretoDaSelva.png" alt="">
+                        <h3 class="card__title">Direto Da Selva</h3>
+                        <h4 class="card__subtitle">Mixtape 2024 - Tz da Coronel</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/0BLV2fhIeGJmvzBxwz3NxV?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/OAHC.png" alt="">
+                        <h3 class="card__title">Onde As Histórias Se Cruzam</h3>
+                        <h4 class="card__subtitle">Mixtape 2024 - VND</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/37NcjosRhmvbUMmsStskKQ?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/EuMermo.png" alt="">
+                        <h3 class="card__title">Eu Mermo</h3>
+                        <h4 class="card__subtitle">Mixtape 2023 - Derxan</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/7vRgYe1RGL5md2vIZQadmW?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Lobo.png" alt="">
+                        <h3 class="card__title">Lobo</h3>
+                        <h4 class="card__subtitle">Mixtape 2021 - Orochi</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/7g1gfivaZsOOuf0a6Z1vsj?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Autodomínio.png" alt="">
+                        <h3 class="card__title">Autodomínio</h3>
+                        <h4 class="card__subtitle">Mixtape 2023 - pumapjl</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/3kPsjo393B9b4BQ8HDEaTc?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Vivaz.png" alt="">
+                        <h3 class="card__title">Vivaz</h3>
+                        <h4 class="card__subtitle">Mixtape 2012 - Felipe Ret</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/0fFmKxC1JA1Bt56zkpwVMF?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+        <!-- Descobrir -->
+        <section class="section section-vertical">
+            <h2 class="section__title">Descobrir</h2>
+            <a class="section__link" href="#" aria-label="Clique aqui para ver mais sobre Dev sem Fronteiras">Ver mais</a>
+
+            <ul class="section__cards">
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Sirenes.png" alt="">
+                        <h3 class="card__title">Sirenes</h3>
+                        <h4 class="card__subtitle">Single 2020 - Big Bllakk - SD9</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/4NOFtN3gwD6OaHTjfDpIeo?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/War.png" alt="">
+                        <h3 class="card__title">War</h3>
+                        <h4 class="card__subtitle">Single 2023 - Caio Luccas</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/1IVKoeAPWQQklwTWVzdFLV?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/CarasComoEu.png" alt="">
+                        <h3 class="card__title">Caras Como Eu</h3>
+                        <h4 class="card__subtitle">Single 2024 - Caio Ocean</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/2FrFzK7f5aGEpl6anXzM2i?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Roses.png" alt="">
+                        <h3 class="card__title">Roses</h3>
+                        <h4 class="card__subtitle">Single 2018 - SAINt JHN</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/5tIp6ydNO0e2abPK5W5Mx7?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/ÉoRitmo.png" alt="">
+                        <h3 class="card__title">É o Ritmo</h3>
+                        <h4 class="card__subtitle">Mixtape 2024 - Hashi</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/2Vc0zpNC3OnnVMcD1Ku2GQ?utm_source=generator" 
+                            width="100%" 
+                            height="352"
+                             frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <li class="card">
+                    <a href="#" class="popup-trigger">
+                        <img class="card__image" src="./Images/Cover/Xanax.jpg" alt="">
+                        <h3 class="card__title">Tia Valquíria</h3>
+                        <h4 class="card__subtitle">Single 2022 - Vários intérpretes</h4>
+                    </a>
+                </li>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/show/74lFf7JyM2R5k0zFOadbE1?utm_source=generator" 
+                            width="100%" 
+                            height="352" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+    </main>
+
+    <div class="navbar">
+        <ul class="navbar__items">
+            <li class="navbar__item navbar__item--home"><form action="."><button aria-label="Botão acessar Home"><img src="./src/imagens/Icones/home-branco.svg" alt="Logo do botão acessar Home">Home</button></form></li>
+
+            <li class="navbar__item navbar__item--busca"><form action="."><button aria-label="Botão acessar campo de busca"><img src="./src/imagens/Icones/search-branco.svg" alt="Logo do botão acessar campo de busca">Busca</button></form></li>
+
+            <li class="navbar__item navbar__item--biblioteca"><form action="."><button aria-label="Botão acessar sua biblioteca"><img src="./src/imagens/Icones/bookmark-branco.svg" alt="Logo do botão acessar sua biblioteca">Sua Biblioteca</button></form></li>
+        </ul>
+    </div>
+    <script src="./Script/app.js"></script>
+</body>
+
+</html>

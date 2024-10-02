@@ -1,0 +1,19 @@
+/* ========== SECÇÃO HORIZONTAL ========== */
+.section-horizontal .card {
+    overflow: hidden;
+}
+
+.section-horizontal .card__image-horizontal {
+    height: 4.58rem;
+}
+
+.section-horizontal .card__player-horizontal {
+    width: 10.25rem;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.section-horizontal .card__button-horizontal {
+    padding-right: .75rem;
+}

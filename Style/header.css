@@ -1,0 +1,8 @@
+/* ========== HEADER ========== */
+.cabecalho {
+    padding-top: 2.5rem;
+}
+
+.cabecalho__botao:not(:last-of-type) {
+    margin-right: 1rem;
+}
